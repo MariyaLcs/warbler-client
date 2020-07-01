@@ -28,8 +28,9 @@ const Main = (props) => {
           render={(props) => {
             return (
               <AuthForm
+                signUp
                 buttonText="Sign me up!"
-                heading="Welcome Back."
+                heading="Join Warbler today."
                 {...props}
               />
             );
