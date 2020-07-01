@@ -19,7 +19,7 @@ class Navbar extends Component {
               <Link to="/signup">Sign up</Link>
             </li>
             <li>
-              <i className="fa fa-sign-in mr-2 text-white"></i>
+              <i className="fa fa-beer mr-2 text-white"></i>
               <Link to="/signin">Log In</Link>
             </li>
           </ul>
