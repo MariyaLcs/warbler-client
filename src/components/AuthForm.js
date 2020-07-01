@@ -15,6 +15,19 @@ export default class AuthForm extends Component {
     this.setState({ [e.target.name]: e.target.value });
   };
 
+  handleSubmit = (e) => {
+    e.preventDefault();
+    const authType = this.props.signUp ? "signup" : "signin";
+    this.props
+      .onAuth(authType, this.state)
+      .then(() => {
+        this.props.history.push("/");
+      })
+      .catch(() => {
+        return;
+      });
+  };
+
   render() {
     const { email, username, password, profileImageUrl } = this.state;
     const { signUp, heading, buttonText } = this.props;
@@ -68,6 +81,12 @@ export default class AuthForm extends Component {
                   />
                 </div>
               )}
+              <button
+                type="submit"
+                className="btn btn-outline-dark mt-3 btn-block btn-lg"
+              >
+                {buttonText}
+              </button>
             </form>
           </div>
         </div>
