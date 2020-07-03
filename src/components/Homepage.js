@@ -7,7 +7,7 @@ const Homepage = ({ currentUser }) => {
       <div className="home-hero">
         <h1>What's Happening?</h1>
         <h4>New to Messanger?</h4>
-        <Link to="/signup" className="btn btn-primary">
+        <Link to="/signup" className="btn btn-dark">
           Sign up here
         </Link>
       </div>
