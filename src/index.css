@@ -67,3 +67,18 @@ ul.nav.navbar-nav li {
   border: 1px solid #dee2e6;
   border-radius: 0.5rem;
 }
+.timeline-image {
+  border-radius: 50px;
+  height: 48px;
+  width: 48px;
+  margin: 2px 30px 10px 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+a.btn.btn-danger,
+a.btn.btn-danger:hover {
+  color: white;
+}
