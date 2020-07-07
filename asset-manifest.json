@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/warbler-client/static/css/main.8c3e2431.chunk.css",
+    "main.js": "/warbler-client/static/js/main.6609bf2d.chunk.js",
+    "main.js.map": "/warbler-client/static/js/main.6609bf2d.chunk.js.map",
+    "runtime-main.js": "/warbler-client/static/js/runtime-main.6406c426.js",
+    "runtime-main.js.map": "/warbler-client/static/js/runtime-main.6406c426.js.map",
+    "static/js/2.51e19ab5.chunk.js": "/warbler-client/static/js/2.51e19ab5.chunk.js",
+    "static/js/2.51e19ab5.chunk.js.map": "/warbler-client/static/js/2.51e19ab5.chunk.js.map",
+    "index.html": "/warbler-client/index.html",
+    "precache-manifest.bd7c222d59410fbc01a060512f8a52b8.js": "/warbler-client/precache-manifest.bd7c222d59410fbc01a060512f8a52b8.js",
+    "service-worker.js": "/warbler-client/service-worker.js",
+    "static/css/main.8c3e2431.chunk.css.map": "/warbler-client/static/css/main.8c3e2431.chunk.css.map",
+    "static/js/2.51e19ab5.chunk.js.LICENSE.txt": "/warbler-client/static/js/2.51e19ab5.chunk.js.LICENSE.txt",
+    "static/media/warbler-logo.png": "/warbler-client/static/media/warbler-logo.25398cf7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6406c426.js",
+    "static/js/2.51e19ab5.chunk.js",
+    "static/css/main.8c3e2431.chunk.css",
+    "static/js/main.6609bf2d.chunk.js"
+  ]
+}
